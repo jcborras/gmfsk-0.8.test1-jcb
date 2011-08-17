@@ -1,0 +1,1843 @@
+# Translation of gmfsk.pot to Portuguese.
+# Copyright (C) 2004 Tomi Manninen
+# This file is distributed under the same license as the gmfsk package.
+# David Quental <ct1drb@iol.pt>, 2005.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gmfsk 0.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-04-10 22:20+0300\n"
+"PO-Revision-Date: 2005-02-20 23:14+0200\n"
+"Last-Translator: David Quental <ct1drb@iol.pt>\n"
+"Language-Team: Portuguese <pt@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/callbacks.c:72
+msgid "Unable to open log file"
+msgstr "Incapaz de abrir o ficheiro de log"
+
+#. Append qsodata buttons
+#: src/callbacks.c:1186 src/interface.c:2251 src/interface.c:4644
+msgid "Callsign"
+msgstr "Indicativo"
+
+#: src/callbacks.c:1194 src/interface.c:577 src/interface.c:2259
+#: src/interface.c:4652
+msgid "Name"
+msgstr "Nome"
+
+#: src/callbacks.c:1202 src/interface.c:640 src/interface.c:2267
+#: src/interface.c:4660
+msgid "QTH"
+msgstr "QTH"
+
+#: src/callbacks.c:1210 src/interface.c:654 src/interface.c:2275
+#: src/interface.c:4668
+msgid "Locator"
+msgstr "Locator"
+
+#: src/callbacks.c:1218 src/interface.c:593
+msgid "Sent RST"
+msgstr "RST enviado"
+
+#: src/callbacks.c:1226
+msgid "Received RST"
+msgstr "RST recebido"
+
+#: src/callbacks.c:1234 src/interface.c:647
+msgid "Notes"
+msgstr "Notas"
+
+#: src/conf.c:344 src/druid.c:291
+#, c-format
+msgid "Error converting filename (%s=%s): %s"
+msgstr "Erro a converter o ficheiro (%s=%s): %s"
+
+#: src/conf.c:391
+msgid "Couldn't allocate color"
+msgstr "Não consigo atribuir a cor"
+
+#: src/conf.c:654
+msgid "GConf client init failed!!!\n"
+msgstr "Inicio do cliente GConf falhado!!!\n"
+
+#: src/confdialog.c:60
+msgid "Station info"
+msgstr "Informação da estação"
+
+#: src/confdialog.c:61
+msgid "Date & Time"
+msgstr "Data & Tempo"
+
+#: src/confdialog.c:62 src/interface.c:2390
+msgid "Bands"
+msgstr "Bandas"
+
+#: src/confdialog.c:63
+msgid "Files & Dirs"
+msgstr "Ficheiros & Directorias"
+
+#: src/confdialog.c:68 src/interface.c:2538
+msgid "Colors"
+msgstr "Cores"
+
+#: src/confdialog.c:69 src/interface.c:2585
+msgid "Fonts"
+msgstr "Fontes"
+
+#: src/confdialog.c:74 src/interface.c:2623
+msgid "All"
+msgstr "Todos"
+
+#: src/confdialog.c:75 src/interface.c:2664
+msgid "MFSK"
+msgstr "MFSK"
+
+#: src/confdialog.c:76 src/interface.c:125 src/interface.c:2796
+msgid "OLIVIA"
+msgstr "OLIVIA"
+
+#: src/confdialog.c:77 src/interface.c:132 src/interface.c:2990
+msgid "RTTY"
+msgstr "RTTY"
+
+#: src/confdialog.c:78 src/interface.c:3030
+msgid "THROB"
+msgstr "THROB"
+
+#: src/confdialog.c:79 src/interface.c:3069
+msgid "PSK31"
+msgstr "PSK31"
+
+#: src/confdialog.c:80 src/interface.c:188 src/interface.c:3176
+msgid "MT63"
+msgstr "MT63"
+
+#: src/confdialog.c:81 src/interface.c:3277
+msgid "HELL"
+msgstr "HELL"
+
+#: src/confdialog.c:82 src/interface.c:202 src/interface.c:3348
+msgid "CW"
+msgstr "CW"
+
+#: src/confdialog.c:87 src/confdialog.c:98 src/confdialog.c:104
+#: src/interface.c:3498 src/interface.c:3791 src/interface.c:3905
+msgid "Settings"
+msgstr "Definições"
+
+#: src/confdialog.c:92 src/interface.c:3630
+msgid "Sound"
+msgstr "Som"
+
+#: src/confdialog.c:93 src/interface.c:3719
+msgid "PTT"
+msgstr "PTT"
+
+#: src/confdialog.c:105
+msgid "Features"
+msgstr "Caracteristicas"
+
+#: src/confdialog.c:111
+msgid "General"
+msgstr "Geral"
+
+#: src/confdialog.c:112
+msgid "Appearance"
+msgstr "Aparência"
+
+#: src/confdialog.c:113
+msgid "Modems"
+msgstr "Modens"
+
+#: src/confdialog.c:114 src/interface.c:1411 src/interface.c:1723
+msgid "Waterfall"
+msgstr "Catarata"
+
+#: src/confdialog.c:115
+msgid "Devices"
+msgstr "Dispositivos"
+
+#: src/confdialog.c:116 src/interface.c:3795
+#, fuzzy
+msgid "Server"
+msgstr "unir"
+
+#: src/confdialog.c:118 src/interface.c:3909
+msgid "Hamlib"
+msgstr "Hamlib"
+
+#: src/confdialog.c:671
+msgid "Categories"
+msgstr "Categorias"
+
+#: src/confdialog.c:723
+msgid "confdialog_select_node: ConfDialog init failed\n"
+msgstr "confdialog_select_node: Inicio do ConfDialog falhado\n"
+
+#: src/confdialog.c:736
+#, c-format
+msgid "confdialog_select_node: tree path '%s' not found (%s)\n"
+msgstr "confdialog_select_node: caminho da àvore '%s' não encontrado (%s)\n"
+
+#: src/cwirc.c:66
+msgid "Can't attach to the CWirc API shared memory block!\n"
+msgstr "Não é possivel juntar o bloco de memória dividida no CWirc API\n"
+
+#: src/cwirc.c:70
+msgid "Working in CWirc slave mode.\n"
+msgstr "A trabalhar no modo slave CWirc.\n"
+
+#: src/druid.c:409
+#, c-format
+msgid "Error creating directory: %s: %m"
+msgstr "Erro a criar a directoria: %s: %m"
+
+#: src/druid.c:416
+#, c-format
+msgid "Error creating directory: %s exists but is not a directory"
+msgstr "Erro a criar a directoria: %s existe mas não é uma directoria"
+
+#: src/druid.c:435
+#, c-format
+msgid "Error creating file: %s: %m"
+msgstr "Erro a criar o ficheiro: %s %m"
+
+#: src/druid.c:442
+#, c-format
+msgid "Error creating file: %s exists but is not a regular file"
+msgstr "Erro a criar o ficheiro: %s existe mas não é um ficheiro regular"
+
+#: src/druid.c:447
+#, c-format
+msgid "Error: %s is not writable: %m"
+msgstr "Erro: %s não pode ser escrito: %m"
+
+#: src/druid.c:505
+#, c-format
+msgid "Sound card open for read failed: %s"
+msgstr "Placa de som aberta para ler mas falha na leitura: %s"
+
+#: src/druid.c:512 src/druid.c:539
+#, c-format
+msgid "Reading from sound card failed: %s"
+msgstr "Falha a ler da placa de som: %s"
+
+#: src/druid.c:523
+#, c-format
+msgid "Sound card open for write failed: %s"
+msgstr "Placa de som aberta para escrever mas falha na escrita: %s"
+
+#: src/druid.c:576 src/ptt.c:146
+#, c-format
+msgid "Cannot open PTT device '%s': %m"
+msgstr "Não posso abrir o dispositivo do PTT '%s' : %m"
+
+#: src/druid.c:590 src/ptt.c:123 src/ptt.c:130
+#, c-format
+msgid "set_ptt: ioctl: %m"
+msgstr "set_ptt: ioctl: %m"
+
+#: src/hamlib.c:270
+#, c-format
+msgid "Hamlib init: Bad rig config parameter: '%s'"
+msgstr "Inicio do Hamlib: mau parametro de configuração do equipamento: '%s'"
+
+#: src/hamlib.c:275
+#, c-format
+msgid "Hamlib init: rig_set_conf failed (%s=%s): %s"
+msgstr "Inicio do Hamlib: falha no rig_set_conf (%s=%s): %s"
+
+#: src/hamlib.c:310
+#, c-format
+msgid "Hamlib init: rig_init failed (model=%d)"
+msgstr "Inicio do Hamlib: falha no rig_init (model=%d)"
+
+#: src/hamlib.c:322
+#, c-format
+msgid "Hamlib init: Bad param=value pair: '%s'"
+msgstr "Inicio do Hamlib: mau par param=valor: '%s'"
+
+#: src/hamlib.c:348
+#, c-format
+msgid "Hamlib init: rig_open failed: %s"
+msgstr "Inicio do Hamlib: falha no rig_open: %s"
+
+#: src/hamlib.c:361
+#, c-format
+msgid "Hamlib init: rig_get_freq failed: %s"
+msgstr "Inicio do Hamlib: falha no rig_get_freq: %s"
+
+#: src/hamlib.c:372
+#, c-format
+msgid ""
+"Hamlib init: rig_get_mode failed: %s.\n"
+"Assuming USB mode."
+msgstr ""
+"Inicio do Hamlib: falha no rig_get_mode: %s.\n"
+"A assumir o modo USB."
+
+#: src/hamlib.c:379
+#, c-format
+msgid ""
+"Hamlib init: rig_set_ptt failed: %s.\n"
+"Hamlib PTT disabled"
+msgstr ""
+"Inicio do Hamlib: falha no rig_ptt: %s.\n"
+"PTT do Hamlib desactivado"
+
+#: src/hamlib.c:398
+#, c-format
+msgid "Hamlib init: pthread_create: %m"
+msgstr "Inicio do Hamlib: pthread_create: %m"
+
+#: src/hamlib.c:443
+#, c-format
+msgid ""
+"rig_set_ptt failed: %s.\n"
+"Hamlib PTT disabled.\n"
+msgstr ""
+"falha no rig_set_ptt: %s.\n"
+"PTT do Hamlib desactivado.\n"
+
+#: src/hamlib.c:487
+#, c-format
+msgid "rig_get_freq failed: %s"
+msgstr "falha do rig_get_freq: %s"
+
+#: src/hamlib.c:509
+#, c-format
+msgid "rig_get_mode failed: %s"
+msgstr "falha do rig_get_mode: %s"
+
+#: src/hamlib.c:527
+#, c-format
+msgid "rig_set_freq failed: %s"
+msgstr "falha no rig_set_freq: %s"
+
+#: src/interface.c:32
+msgid "_Send file..."
+msgstr "_Ficheiro enviado..."
+
+#: src/interface.c:40
+msgid "_Log to file"
+msgstr "_Registar no ficheiro"
+
+#: src/interface.c:48
+msgid "Clear _TX window"
+msgstr "Limpar a janela de _TX"
+
+#: src/interface.c:55
+msgid "Clear _RX window"
+msgstr "Limpar a janela de _RX"
+
+#: src/interface.c:69
+msgid "MFSK16"
+msgstr "MFSK16"
+
+#: src/interface.c:76
+msgid "MFSK8"
+msgstr "MFSK8"
+
+#: src/interface.c:83
+msgid "DominoEX 4"
+msgstr ""
+
+#: src/interface.c:90
+msgid "DominoEX 5"
+msgstr ""
+
+#: src/interface.c:97
+msgid "DominoEX 8"
+msgstr ""
+
+#: src/interface.c:104
+msgid "DominoEX 11"
+msgstr ""
+
+#: src/interface.c:111
+msgid "DominoEX 16"
+msgstr ""
+
+#: src/interface.c:118
+msgid "DominoEX 22"
+msgstr ""
+
+#: src/interface.c:139
+msgid "THROB (1 tps)"
+msgstr "THROB (1 tps)"
+
+#: src/interface.c:146
+msgid "THROB (2 tps)"
+msgstr "THROB (2 tps)"
+
+#: src/interface.c:153
+msgid "THROB (4 tps)"
+msgstr "THROB (4 tps)"
+
+#: src/interface.c:160
+msgid "PSK31 (BPSK)"
+msgstr "PSK31 (BPSK)"
+
+#: src/interface.c:167
+msgid "PSK31 (QPSK)"
+msgstr "PSK31 (QPSK)"
+
+#: src/interface.c:174
+#, fuzzy
+msgid "PSK63 (BPSK)"
+msgstr "PSK31 (BPSK)"
+
+#: src/interface.c:181
+#, fuzzy
+msgid "PSK63 (QPSK)"
+msgstr "PSK31 (QPSK)"
+
+#: src/interface.c:195
+msgid "FELDHELL"
+msgstr "FELDHELL"
+
+#: src/interface.c:224
+msgid "macro 1"
+msgstr "macro 1"
+
+#: src/interface.c:231
+msgid "macro 2"
+msgstr "macro 2"
+
+#: src/interface.c:238
+msgid "macro 3"
+msgstr "macro 3"
+
+#: src/interface.c:245
+msgid "macro 4"
+msgstr "macro 4"
+
+#: src/interface.c:252
+msgid "macro 5"
+msgstr "macro 5"
+
+#: src/interface.c:259
+msgid "macro 6"
+msgstr "macro 6"
+
+#: src/interface.c:266
+msgid "macro 7"
+msgstr "macro 7"
+
+#: src/interface.c:273
+msgid "macro 8"
+msgstr "macro 8"
+
+#: src/interface.c:280
+msgid "macro 9"
+msgstr "macro 9"
+
+#: src/interface.c:287
+msgid "macro 10"
+msgstr "macro 10"
+
+#: src/interface.c:294
+msgid "macro 11"
+msgstr "macro 11"
+
+#: src/interface.c:301
+msgid "macro 12"
+msgstr "macro 12"
+
+#: src/interface.c:314
+msgid "_Configure macros"
+msgstr "Configurar macros"
+
+#: src/interface.c:326
+msgid "_Contents"
+msgstr "_Assuntos"
+
+#: src/interface.c:339
+msgid "_File"
+msgstr "_Ficheiro"
+
+#: src/interface.c:346
+msgid "_Mode"
+msgstr "_Modo"
+
+#: src/interface.c:353
+msgid "_Settings"
+msgstr "_Definições"
+
+#: src/interface.c:360
+msgid "_Help"
+msgstr "_Ajuda"
+
+#: src/interface.c:473
+msgid "gMFSK"
+msgstr "gMFSK"
+
+#: src/interface.c:491 src/interface.c:1437
+msgid "Pause"
+msgstr "Pausa"
+
+#: src/interface.c:497
+msgid "Suspend the modem and release soundcard (Ctl+Z)"
+msgstr "Suspender o modem e libertar a carta de som (Ct+Z)"
+
+#: src/interface.c:509
+msgid "Receive"
+msgstr "Receber"
+
+#: src/interface.c:515
+msgid "Switch to receive (Ctl+R)"
+msgstr "Mudar para receber (Ctl+R)"
+
+#: src/interface.c:524
+msgid "Transmit"
+msgstr "Transmitir"
+
+#: src/interface.c:530
+msgid "Switch to transmit (Ctl+T)"
+msgstr "Mudar para transmitir"
+
+#: src/interface.c:543
+msgid "Abort"
+msgstr "Abortar"
+
+#: src/interface.c:546
+msgid "Abort transmission immediately (Ctl+X)"
+msgstr "Abortar transmissão imediatamente (Ctl+X)"
+
+#: src/interface.c:556
+msgid "Tune"
+msgstr "Sintonizar"
+
+#: src/interface.c:562
+msgid "Send tune signal (Ctl+U)"
+msgstr "Enviar sinal de sintonia (Ctl+U)"
+
+#: src/interface.c:585
+msgid "Rcvd RST"
+msgstr "RST recebido"
+
+#: src/interface.c:601
+msgid "Call"
+msgstr "Indicativo"
+
+#: src/interface.c:609
+msgid "Band"
+msgstr "Banda"
+
+#: src/interface.c:676
+msgid "Clear"
+msgstr ""
+
+#: src/interface.c:681
+msgid "Clear QSO data fields (Ctl-N)"
+msgstr "Limpar campos de dados do QSO (Ctl-N)"
+
+#: src/interface.c:686
+#, fuzzy
+msgid "Send"
+msgstr "Som"
+
+#: src/interface.c:691
+msgid "Send QSO data to xlog (Ctl-L)"
+msgstr "Enviar dados do QSO para o xlog (Ctl-L)"
+
+#: src/interface.c:696
+#, fuzzy
+msgid "Start"
+msgstr "EstaÃ§Ã£o"
+
+#: src/interface.c:701
+msgid "Start QSO (set start time)"
+msgstr ""
+
+#: src/interface.c:762
+msgid "textmodes"
+msgstr "modos de texto"
+
+#: src/interface.c:812
+msgid "hellmodes"
+msgstr "modos de hell"
+
+#: src/interface.c:828 src/interface.c:837 src/interface.c:846
+#: src/interface.c:859 src/interface.c:868 src/interface.c:877
+#: src/interface.c:894 src/interface.c:903 src/interface.c:912
+#: src/interface.c:925 src/interface.c:934 src/interface.c:943
+msgid "Click right button to edit macro"
+msgstr "Toque no botão direito para editar macro"
+
+#: src/interface.c:974
+msgid "Freq"
+msgstr "Freq"
+
+#: src/interface.c:988
+msgid "Center frequency on RX pass band"
+msgstr "Centrar a frequência no filtro de RX"
+
+#: src/interface.c:999
+msgid "AFC"
+msgstr "AFC"
+
+#: src/interface.c:1003
+msgid "Automatic frequency control"
+msgstr "Controlo automático de frequência"
+
+#: src/interface.c:1005
+msgid "SQL"
+msgstr "SQL"
+
+#: src/interface.c:1009 src/interface.c:2656 src/interface.c:2695
+#: src/interface.c:2827 src/interface.c:3022 src/interface.c:3061
+#: src/interface.c:3100 src/interface.c:3308
+msgid "Squelch"
+msgstr "Squelch"
+
+#: src/interface.c:1011
+msgid "REV"
+msgstr "REV"
+
+#: src/interface.c:1015 src/interface.c:2970
+msgid "Reverse polarity"
+msgstr "Polaridade invertida"
+
+#: src/interface.c:1070
+msgid "clock"
+msgstr "relógio"
+
+#. TRANSLATORS: Replace this string with your names, one name per line.
+#: src/interface.c:1385
+msgid "translator_credits"
+msgstr "David Quental CT1DRB"
+
+#: src/interface.c:1393
+msgid "Copyright 2001-2005 Tomi Manninen, OH2BNS"
+msgstr ""
+
+#: src/interface.c:1394
+msgid ""
+"A Gnome terminal program for HF conversation modes (MFSK, OLIVIA, RTTY, "
+"THROB, PSK31, MT63 and FeldHell)"
+msgstr ""
+"Um programa de terminal do GNOME para modos de conversação no HF (MFSK, "
+"OLIVIA, RTTY, THROB, PSK31, MT63 e FeldHell)"
+
+#: src/interface.c:1418 src/interface.c:1730
+msgid "Spectrum"
+msgstr "Espectro"
+
+#: src/interface.c:1425 src/interface.c:1737
+msgid "Scope"
+msgstr "Scope"
+
+#: src/interface.c:1451
+msgid "Waterfall properties..."
+msgstr "Propriedades da catarata..."
+
+#: src/interface.c:1492
+msgid "125 Hz"
+msgstr "125 Hz"
+
+#: src/interface.c:1499
+msgid "250 Hz"
+msgstr "250 Hz"
+
+#: src/interface.c:1506 src/interface.c:1697
+msgid "500 Hz"
+msgstr "500 Hz"
+
+#: src/interface.c:1513 src/interface.c:1704
+msgid "1000 Hz"
+msgstr "1000 Hz"
+
+#: src/interface.c:1520 src/interface.c:1711
+msgid "2000 Hz"
+msgstr "2000 Hz"
+
+#: src/interface.c:1532
+msgid "4"
+msgstr "4"
+
+#: src/interface.c:1539
+msgid "8"
+msgstr "8"
+
+#: src/interface.c:1546
+msgid "16"
+msgstr "16"
+
+#: src/interface.c:1553
+msgid "32"
+msgstr "32"
+
+#: src/interface.c:1560
+msgid "64"
+msgstr "64"
+
+#: src/interface.c:1567
+msgid "128"
+msgstr "128"
+
+#: src/interface.c:1574
+msgid "256"
+msgstr "256"
+
+#: src/interface.c:1586 src/interface.c:3687 src/interface.c:4914
+msgid "none"
+msgstr "nada"
+
+#: src/interface.c:1593
+msgid "even"
+msgstr "unir"
+
+#: src/interface.c:1600
+msgid "odd"
+msgstr "extra"
+
+#: src/interface.c:1607
+msgid "zero"
+msgstr "zero"
+
+#: src/interface.c:1614
+msgid "one"
+msgstr "um"
+
+#: src/interface.c:1626
+msgid "1"
+msgstr "2"
+
+#: src/interface.c:1633
+msgid "1.5"
+msgstr "1.5"
+
+#: src/interface.c:1640
+msgid "2"
+msgstr "2"
+
+#: src/interface.c:1652
+msgid "5 (BAUDOT)"
+msgstr "5 (BAUDOT)"
+
+#: src/interface.c:1659
+msgid "7 (ASCII)"
+msgstr "7 (ASCII)"
+
+#: src/interface.c:1666
+msgid "8 (ASCII)"
+msgstr "8 (ASCII)"
+
+#: src/interface.c:1678
+msgid "32 (short)"
+msgstr "32 (curto)"
+
+#: src/interface.c:1685
+msgid "64 (long)"
+msgstr "64 (comprido)"
+
+#: src/interface.c:1749
+msgid "x 1"
+msgstr "x 1"
+
+#: src/interface.c:1756
+msgid "x 2"
+msgstr "x 2"
+
+#: src/interface.c:1763
+msgid "x 4"
+msgstr "x 4"
+
+#: src/interface.c:1775
+msgid "Half"
+msgstr "Metade"
+
+#: src/interface.c:1782
+msgid "Normal"
+msgstr "Normal"
+
+#: src/interface.c:1789
+msgid "Double"
+msgstr "Dobro"
+
+#: src/interface.c:1801
+msgid "Boxcar"
+msgstr "Boxcar"
+
+#: src/interface.c:1808
+msgid "Triangular"
+msgstr "Triangular"
+
+#: src/interface.c:1815
+msgid "Hamming"
+msgstr "Hamming"
+
+#: src/interface.c:1837
+msgid "MHz"
+msgstr "MHz"
+
+#: src/interface.c:1844
+msgid "kHz"
+msgstr "kHz"
+
+#: src/interface.c:1851
+msgid "Hz"
+msgstr "Hz"
+
+#: src/interface.c:2191
+msgid "Preferences"
+msgstr "Preferências"
+
+#: src/interface.c:2223
+msgid "<span font_desc=\"Serif Italic 48\" foreground=\"grey50\">gMFSK</span>"
+msgstr "<span font_desc=\"Serif Italic 48\" foreground=\"grey50\">gMFSK</span>"
+
+#: src/interface.c:2228
+msgid "Logo"
+msgstr "Logo"
+
+#: src/interface.c:2241
+msgid ""
+"The station information is used in the macros like $mycall, $myname, etc. "
+msgstr ""
+"A informação da estação é usada nas macros como $mycall, $myname, etc. "
+
+#: src/interface.c:2283 src/interface.c:4676
+msgid "E-mail"
+msgstr "Correio electrónico"
+
+#: src/interface.c:2321
+msgid "Station"
+msgstr "EstaÃ§Ã£o"
+
+#: src/interface.c:2331
+msgid ""
+"These are used in the $date and $date macros. See the strftime manual page "
+"for an explanation of the format."
+msgstr ""
+"Estes são usados nas macros $date e $date. Veja a página do manual strftime "
+"para uma explicação do formato."
+
+#: src/interface.c:2341
+msgid "Time format string"
+msgstr "Fio do formato do tempo"
+
+#: src/interface.c:2349
+msgid "Date format string"
+msgstr "Fio do formato da data"
+
+#: src/interface.c:2362 src/interface.c:2369
+msgid "See the strftime manual page for explanation of this field"
+msgstr "Veja o manual strftime para uma explicação deste campo"
+
+#: src/interface.c:2371
+msgid "Time"
+msgstr "Tempo"
+
+#: src/interface.c:2380
+msgid ""
+"This is a comma separated list of bands you want to appear in the Bands "
+"popdown list."
+msgstr ""
+"Isto é uma virgula de separação da lista de bandas que você deseja que "
+"apareça na lista geral de bandas."
+
+#: src/interface.c:2399
+msgid "Files and directories used by gMFSK."
+msgstr "Ficheiros e directorias usadas pelo gMFSK."
+
+#: src/interface.c:2415 src/interface.c:4746
+msgid "Log file name"
+msgstr "Nome do ficheiro de registo"
+
+#: src/interface.c:2422 src/interface.c:4753
+msgid "TX pictures directory"
+msgstr "Directoria das imagens de TX"
+
+#: src/interface.c:2429 src/interface.c:4760
+msgid "RX pictures directory"
+msgstr "Directoria das imagens de RX"
+
+#: src/interface.c:2448
+msgid "Files"
+msgstr "Ficheiros"
+
+#: src/interface.c:2458
+msgid ""
+"The color settings let you configure the colors used in the RX and TX "
+"windows."
+msgstr ""
+"A definição das cores deixa você configurar as cores usadas nas janelas de "
+"RX e TX "
+
+#: src/interface.c:2498
+msgid "Received text color"
+msgstr "Cor do texto recebido"
+
+#: src/interface.c:2506
+msgid "Transmitted text color"
+msgstr "Cor do texto transmitido"
+
+#: src/interface.c:2514
+msgid "HIghlighted text color"
+msgstr "Cor do texto iluminado"
+
+#: src/interface.c:2522
+msgid "RX window background color"
+msgstr "Cor de fundo da janela de RX"
+
+#: src/interface.c:2530
+msgid "TX window background color"
+msgstr "Cor de fundo da janela de TX"
+
+#: src/interface.c:2547
+msgid ""
+"The fonts settings let you configure the fonts used in the RX and TX windows."
+msgstr ""
+"A definição das fontes deixa você configurar as fontes usadas nas janelas de "
+"RX e de RX"
+
+#: src/interface.c:2557
+msgid "Received text font"
+msgstr "Fonte do texto recebido"
+
+#: src/interface.c:2565
+msgid "Transmitted text font"
+msgstr "Fonte do texto transmitido"
+
+#: src/interface.c:2595
+msgid "These settings affect all modems."
+msgstr "Estas definições afectam todos os modens."
+
+#: src/interface.c:2615
+msgid "TX offset frequency"
+msgstr "Frequência de offset TX"
+
+#: src/interface.c:2634
+msgid ""
+"MFSK16 and MFSK8 modem parameters.\n"
+"New parametes take effect after restarting the modem."
+msgstr ""
+"Parametros dos modens de MFSK16 e MFSK8.\n"
+"Novos parametros têm efeito após o recomeço do modem."
+
+#: src/interface.c:2660 src/interface.c:2792 src/interface.c:2986
+#: src/interface.c:3026 src/interface.c:3065 src/interface.c:3172
+#: src/interface.c:3344 src/interface.c:3626
+msgid "Restart modem"
+msgstr "Recomeçar modem"
+
+#: src/interface.c:2673
+msgid ""
+"OLIVIA modem parameters.\n"
+"New parametes take effect after restarting the modem."
+msgstr ""
+"Parametros do modem OLIVIA.\n"
+"Novos parametros têm efeito após recomeço do modem."
+
+#: src/interface.c:2737
+msgid "Tones"
+msgstr "Tonos"
+
+#: src/interface.c:2745 src/interface.c:3142
+msgid "Bandwidth"
+msgstr "Banda passante"
+
+#: src/interface.c:2753
+msgid "RX sync search margin"
+msgstr "Margem de procura no sincronismo de RX"
+
+#: src/interface.c:2761
+msgid "RX sync integration period"
+msgstr "Periodo de integração no sincronismo de RX"
+
+#: src/interface.c:2783 src/interface.c:3163
+msgid "Allow 8 bit characters (escape-127 method)"
+msgstr "Permite caracteres de 8 bits (modo escape-127)"
+
+#: src/interface.c:2788 src/interface.c:2982 src/interface.c:3168
+msgid "Modem settings"
+msgstr "Definições do modem"
+
+#: src/interface.c:2805
+msgid ""
+"RTTY modem parameters.\n"
+"New parametes take effect after restarting the modem."
+msgstr ""
+"Parametros do modem de RTTTY.\n"
+"Novos parametros têm efeito após recomeço do modem."
+
+#: src/interface.c:2890
+msgid "23"
+msgstr "23"
+
+#: src/interface.c:2891
+msgid "85"
+msgstr "85"
+
+#: src/interface.c:2892
+msgid "160"
+msgstr "160"
+
+#: src/interface.c:2893
+msgid "170"
+msgstr "170"
+
+#: src/interface.c:2894
+msgid "182"
+msgstr "182"
+
+#: src/interface.c:2895 src/interface.c:2922
+msgid "200"
+msgstr "200"
+
+#: src/interface.c:2896
+msgid "240"
+msgstr "240"
+
+#: src/interface.c:2897
+msgid "350"
+msgstr "350"
+
+#: src/interface.c:2898
+msgid "425"
+msgstr "425"
+
+#: src/interface.c:2899
+msgid "850"
+msgstr "850"
+
+#: src/interface.c:2914
+msgid "45"
+msgstr "45"
+
+#: src/interface.c:2915
+msgid "45.45"
+msgstr "45.45"
+
+#: src/interface.c:2916
+msgid "50"
+msgstr "50"
+
+#: src/interface.c:2917
+msgid "56"
+msgstr "56"
+
+#: src/interface.c:2918
+msgid "75"
+msgstr "75"
+
+#: src/interface.c:2919
+msgid "100"
+msgstr "100"
+
+#: src/interface.c:2920
+msgid "110"
+msgstr "110"
+
+#: src/interface.c:2921
+msgid "150"
+msgstr "150"
+
+#: src/interface.c:2923
+msgid "300"
+msgstr "300"
+
+#: src/interface.c:2930
+msgid "Shift"
+msgstr "Shift"
+
+#: src/interface.c:2938
+msgid "Baudrate"
+msgstr "Baudrate"
+
+#: src/interface.c:2946
+msgid "Bits"
+msgstr "Bits"
+
+#: src/interface.c:2954
+msgid "Parity"
+msgstr "Paridade"
+
+#: src/interface.c:2962
+msgid "Stopbits"
+msgstr "Stopbits"
+
+#: src/interface.c:2974
+msgid "If tones should be reversed for RTTY"
+msgstr "Se os tones devem ser invertidos para RTTY"
+
+#: src/interface.c:2976
+msgid "Send MSB first"
+msgstr "Envie primeiro o MSB"
+
+#: src/interface.c:2980
+msgid "If most significant bit should the transmitted first"
+msgstr "Se o bit mais significativo deverá ser primeiro transmitido"
+
+#: src/interface.c:3000
+msgid ""
+"THROB modem parameters. \n"
+"New parametes take effect after restarting the modem."
+msgstr ""
+"Parametros do modo THROB. \n"
+"Novos parametros têm efeito após recomeço do modem."
+
+#: src/interface.c:3039
+msgid ""
+"BPSK31, QPSK31 and PSK63 modem parameters.\n"
+"New parametes take effect after restarting the modem."
+msgstr ""
+"Parametros dos modos BPSK31, QPSK31 e PSK63. \n"
+"Novos parametros têm efeito após recomeço do modem."
+
+#: src/interface.c:3078
+msgid ""
+"MT63 modem parameters. \n"
+"New parametes take effect after restarting the modem."
+msgstr ""
+"Parametros do modo MT63. \n"
+"Novos parametros têm efeito após recomeço do modem."
+
+#: src/interface.c:3150
+msgid "Interleave"
+msgstr "Interleave"
+
+#: src/interface.c:3158
+msgid "CW Identification"
+msgstr "Identificação de CW"
+
+#: src/interface.c:3185
+msgid "FELDHELL modem parameters."
+msgstr "Parametros do modo FELDHELL"
+
+#: src/interface.c:3199
+msgid "Force upper case"
+msgstr "Forçar letras grandes"
+
+#: src/interface.c:3206
+msgid "Hellschreiber font"
+msgstr "Fonte do Hellschreiber"
+
+#: src/interface.c:3242 src/interface.c:3324
+msgid "Filter BW"
+msgstr "Filtro BW"
+
+#: src/interface.c:3257
+msgid "AGC attack"
+msgstr "Ataque do AGC"
+
+#: src/interface.c:3273
+msgid "AGC decay"
+msgstr "Descida do AGC"
+
+#: src/interface.c:3286
+msgid ""
+"CW modem parameters.\n"
+"New parametes take effect after restarting the modem."
+msgstr ""
+"Parametros do modo CW.\n"
+"Novos parametros têm efeito após recomeço do modem."
+
+#: src/interface.c:3340
+msgid "Speed (WPM)"
+msgstr "Velocidade (PPM)"
+
+#: src/interface.c:3357
+msgid "Settings for the waterfall/scope display."
+msgstr "Definições para o display da catarata/scope."
+
+#: src/interface.c:3378
+msgid "Ref level"
+msgstr "Nivel de REF"
+
+#: src/interface.c:3393
+msgid "Amp span"
+msgstr "Amp span"
+
+#: src/interface.c:3409
+msgid "Mode"
+msgstr "Modo"
+
+#: src/interface.c:3417
+msgid "Zoom"
+msgstr "Zoom"
+
+#: src/interface.c:3425 src/interface.c:3871
+msgid "Speed"
+msgstr "Velocidade"
+
+#: src/interface.c:3433
+msgid "Window"
+msgstr "Janela"
+
+#: src/interface.c:3493
+msgid "Waterfall scrolls upwards"
+msgstr "Subida para cima da catarata"
+
+#: src/interface.c:3502
+msgid "WF"
+msgstr "WF"
+
+#: src/interface.c:3515
+msgid "Sound card settings take effect after restarting the modem."
+msgstr "Definições da placa de som têm efeito após recomeço do modem."
+
+#: src/interface.c:3525 src/interface.c:4836
+msgid "8-bit sound I/O"
+msgstr "Som 8-bit I/O"
+
+#: src/interface.c:3532 src/interface.c:4841
+msgid "Stereo sound I/O"
+msgstr "Som stéreo I/O"
+
+#: src/interface.c:3539
+msgid "Full duplex I/O (unsupported!)"
+msgstr "Duplex completo I/O (não suportado!)"
+
+#: src/interface.c:3546 src/interface.c:4814
+msgid "Sound card device"
+msgstr "Equipamento placa de som"
+
+#: src/interface.c:3562 src/interface.c:4826
+msgid "/dev/dsp"
+msgstr "/dev/dsp"
+
+#: src/interface.c:3563 src/interface.c:4827
+msgid "/dev/dsp0"
+msgstr "/dev/dsp0"
+
+#: src/interface.c:3564 src/interface.c:4828
+msgid "/dev/dsp1"
+msgstr "/dev/dsp1"
+
+#: src/interface.c:3565 src/interface.c:4829
+msgid "/dev/dsp2"
+msgstr "/dev/dsp2"
+
+#: src/interface.c:3572
+msgid "Requested sample rate"
+msgstr "Requisitada velocidade exemplo"
+
+#: src/interface.c:3580
+msgid "TX rate offset (ppm)"
+msgstr "Diferença da velocidade de TX (ppm)"
+
+#: src/interface.c:3588
+msgid "RX rate offset (ppm)"
+msgstr "Diferença da velocidade de RX (ppm)"
+
+#: src/interface.c:3640
+msgid ""
+"Push-To-Talk settings. \n"
+"New setting take effect next time PTT is toggled."
+msgstr ""
+"Definições do push-to-talk. \n"
+"Novas definições têm efeito na próxima vez que o PTT é mudado."
+
+#: src/interface.c:3654 src/interface.c:4881
+msgid "RTS"
+msgstr "RTS"
+
+#: src/interface.c:3663 src/interface.c:4890
+msgid "DTR"
+msgstr "DTR"
+
+#: src/interface.c:3671 src/interface.c:4898
+msgid "both"
+msgstr "ambos"
+
+#: src/interface.c:3688 src/interface.c:3860 src/interface.c:4915
+msgid "/dev/ttyS0"
+msgstr "/dev/ttyS0"
+
+#: src/interface.c:3689 src/interface.c:3861 src/interface.c:4916
+msgid "/dev/ttyS1"
+msgstr "/dev/ttyS1"
+
+#: src/interface.c:3690 src/interface.c:4917
+msgid "/dev/parport0"
+msgstr "/dev/parport0"
+
+#: src/interface.c:3691 src/interface.c:4918
+msgid "/dev/parport1"
+msgstr "/dev/parport1"
+
+#: src/interface.c:3698 src/interface.c:4925
+msgid "PTT device"
+msgstr "Dispositivo PTT"
+
+#: src/interface.c:3706 src/interface.c:4933
+msgid "PTT line (serial)"
+msgstr "Linha do PTT (série)"
+
+#: src/interface.c:3714 src/interface.c:4941
+msgid "Use inverted PTT logic"
+msgstr "Usar invertido PTT lógico"
+
+#: src/interface.c:3729
+msgid ""
+"Remote server allows remote controlling gMFSK via a TCP based network "
+"connection."
+msgstr ""
+
+#: src/interface.c:3735
+msgid "Enable remote server"
+msgstr ""
+
+#: src/interface.c:3739
+msgid "Enable the server. You need to restart gMFSK for this to take effect."
+msgstr ""
+
+#: src/interface.c:3754
+msgid ""
+"Internet address of the local interface to bind to. \"0.0.0.0\" means "
+"binding to all interfaces. Can be a domain name or a dotted quad IP address."
+msgstr ""
+
+#: src/interface.c:3761
+msgid ""
+"TCP port on which gMFSK listens to incoming connections. Can be either a "
+"numerical value or a service name."
+msgstr ""
+
+#: src/interface.c:3763
+#, fuzzy
+msgid "Interface"
+msgstr "Interleave"
+
+#: src/interface.c:3770 src/interface.c:3843
+msgid "Port"
+msgstr "Porta"
+
+#: src/interface.c:3777
+msgid "Password"
+msgstr ""
+
+#: src/interface.c:3789
+msgid ""
+"Server password. The password is not transmitted in clear text over the "
+"network so it can not be sniffed. However it is stored in clear text on the "
+"server so do not use the same password for anything important.\n"
+"\n"
+"An empty password disables logging in to the server."
+msgstr ""
+
+#: src/interface.c:3804
+msgid "Hamlib support enables the rig control features in gMFSK."
+msgstr ""
+"O apoio do hamlib permite as características do controlo de equipamentos no "
+"gMFSK."
+
+#: src/interface.c:3810
+msgid "Enable hamlib support"
+msgstr "Activa apoio do hamlib"
+
+#: src/interface.c:3823
+msgid "Radio model"
+msgstr "Modelo do rádio"
+
+#: src/interface.c:3859
+msgid "localhost"
+msgstr "localhost"
+
+#: src/interface.c:3862
+msgid "/dev/ttyS2"
+msgstr "/dev/ttyS2"
+
+#: src/interface.c:3863
+msgid "/dev/ttyS3"
+msgstr "/dev/ttyS3"
+
+#: src/interface.c:3869
+msgid "Serial port name or hostname for RPC rig"
+msgstr "Nome da porta série ou hostname para o RPC do equipamento"
+
+#: src/interface.c:3896
+msgid "A comma separated list of parameter=value hamlib config parameters."
+msgstr "Uma virgula separa a lista de configurações parametro=valor do hamlib"
+
+#: src/interface.c:3898
+msgid "Config"
+msgstr "Configurar"
+
+#: src/interface.c:3918
+msgid "Here you can select the rig control features to use."
+msgstr ""
+"Aqui você pode seleccionar as características de controle do equipamento a "
+"usar."
+
+#: src/interface.c:3928
+msgid "Use real frequencies in waterfall"
+msgstr "Use frequências reais na catarata"
+
+#: src/interface.c:3935
+msgid "Set QSO data frequency"
+msgstr "Defina frequência da data do QSO"
+
+#: src/interface.c:3942
+msgid "Use hamlib PTT"
+msgstr "Use o PTT do hamlib"
+
+#: src/interface.c:3949
+msgid "Resolution:"
+msgstr "Resolução:"
+
+#: src/interface.c:3975
+msgid "RX pass band center frequency"
+msgstr "Frequência central do pass band de RX"
+
+#: src/interface.c:3982
+msgid "Hamlib2"
+msgstr "Hamlib2"
+
+#: src/interface.c:4416
+msgid "Macro name"
+msgstr "Nome da macro"
+
+#: src/interface.c:4490
+msgid "gMFSK picture"
+msgstr "imagem do gMFSK"
+
+#: src/interface.c:4603
+msgid "gMFSK configuration druid"
+msgstr "Acompanhante da configuração do gMFSK"
+
+#: src/interface.c:4615
+msgid "Welcome to gMFSK"
+msgstr "Benvindo ao gMFSK"
+
+#: src/interface.c:4616
+msgid ""
+"This is the first time you run this version of gMFSK. On the following pages "
+"you will be guided through the initial setup of gMFSK.\n"
+"\n"
+"All settings can also be done later in the main program Settings-"
+">Preferences dialog.\n"
+"\n"
+"This druid can be run again by starting gMFSK with the \"--run-druid\" flag."
+msgstr ""
+"É a primeira vez que você usa esta versão do gMFSK. Nas páginas seguintes "
+"você será ajudado através da configuração inicial do gMFSK. \n"
+"\n"
+"Todas as definições podem ser feitas mais tarde nas Definições->Preferências "
+"do programa principal.\n"
+"\n"
+"Este acompanhante pode ser usado outra vez quando começa o gMFSK com a opção "
+"\"--run-druid\"."
+
+#: src/interface.c:4622
+msgid "Station information"
+msgstr "Informação da estação"
+
+#: src/interface.c:4633
+msgid ""
+"Fill in your station information. This data is used in the fixtext macros."
+msgstr ""
+"Escreva a informação da sua estação. Estas informações serão usadas para "
+"preencher as macros."
+
+#: src/interface.c:4718
+msgid "Files and directories"
+msgstr "Ficheiros e directorias"
+
+#: src/interface.c:4729
+msgid ""
+"These files and directories are used by gMFSK. Click the button to actually "
+"create the files and directories."
+msgstr ""
+"Estes ficheiros e directorias são usadas pelo gMFSK. Carregue no botão para "
+"actualizar os ficheiros e directorias."
+
+#: src/interface.c:4779
+msgid "Create files and directories"
+msgstr "Criar ficheiros e directorias"
+
+#: src/interface.c:4788
+msgid "Sound card configuration"
+msgstr "Configuração da placa de som"
+
+#: src/interface.c:4799
+msgid ""
+"Some sound cards don't support the default setting (16 bit mono sampling). "
+"You should hear a short sound sample when you click the test button below."
+msgstr ""
+"Algumas placas de som não suportam a definição por defeito (16 bit mono "
+"sampling). Você deverá ouvir um pequeno som quando carrega no botão abaixo."
+
+#: src/interface.c:4846
+msgid "Test sound card"
+msgstr "Testar carta de som"
+
+#: src/interface.c:4855
+msgid "PTT configuration"
+msgstr "Configuração do PTT"
+
+#: src/interface.c:4866
+msgid ""
+"gMFSK can control PTT via the serial port control lines or the parallel port."
+msgstr "O gMFSK pode controlar o PTT via a porta série ou a porta paralela."
+
+#: src/interface.c:4946
+msgid "Test PTT"
+msgstr "Testar PTT"
+
+#: src/interface.c:4955
+msgid "Configuration complete!"
+msgstr "Configuração completa!"
+
+#: src/interface.c:4956
+msgid "Initial setup is now complete.\n"
+msgstr "Configuração inicial está agora completa.\n"
+
+#: src/interface.c:5028
+msgid "Select File"
+msgstr "Ficheiro seleccionado"
+
+#: src/log.c:71
+#, c-format
+msgid "Error writing to log file: %m"
+msgstr "Erro a escrever no ficheiro de registo: %m"
+
+#: src/log.c:94
+#, c-format
+msgid ""
+"\n"
+"--- Logging started at %s UTC ---\n"
+msgstr ""
+"\n"
+"--- Registo começado às %s UTC ---\n"
+
+#: src/log.c:105
+#, c-format
+msgid ""
+"\n"
+"--- Logging stopped at %s UTC ---\n"
+msgstr ""
+"\n"
+"--- Registo acabado às %s UTC ---\n"
+
+#: src/macro.c:87
+#, c-format
+msgid "fill_macroconfig: invalid macro number %d\n"
+msgstr "fill_macroconfig: inválido número de macro %d\n"
+
+#: src/macro.c:120
+#, c-format
+msgid "apply_macroconfig: invalid macro number %d\n"
+msgstr "apply_macroconfig: inválido número de macro %d\n"
+
+#: src/macro.c:237
+#, c-format
+msgid "run_command: %s"
+msgstr "run_command: %s"
+
+#: src/macro.c:464
+#, c-format
+msgid "send_macro: invalid macro number %d\n"
+msgstr "send_macro: inválido número de macro %d\n"
+
+#: src/main.c:295
+msgid "Select File to Transmit"
+msgstr "Seleccione um ficheiro para transmitir"
+
+#: src/main.c:321
+#, c-format
+msgid "Error reading file: %s"
+msgstr "Erro a ler o ficheiro: %s"
+
+#: src/main.c:329
+#, c-format
+msgid "Error converting file to UTF8: %s"
+msgstr "Erro a converter o ficheiro para UTF8: %s"
+
+#: src/main.c:376
+#, c-format
+msgid "insert_rx_text: conversion failed: %s"
+msgstr "insert_rx_text: conversão falhada: %s"
+
+#: src/main.c:588
+msgid "Start with specified modem"
+msgstr "Começar com o modem especificado"
+
+#: src/main.c:588
+msgid "MODEM"
+msgstr "MODEM"
+
+#: src/main.c:591
+msgid "Run first-time configuration druid"
+msgstr "A começar a primeira vez com o acompanhante de configuração"
+
+#: src/main.c:594
+msgid "Enable CWirc slave mode"
+msgstr "Activar o modo de CWirc"
+
+#: src/main.c:594
+msgid "SHMID"
+msgstr "SHMID"
+
+#: src/main.c:598
+msgid "Enable test mode (write audio data to stdin/stdout)"
+msgstr "Activar o mode de teste (escrever data de audio para o stdin/stdout)"
+
+#: src/main.c:599
+msgid "MODE"
+msgstr "MODO"
+
+#: src/main.c:612
+#, c-format
+msgid "Menu item \"%s\" not found!\n"
+msgstr "Item do menu \"%s\" não encontrado!\n"
+
+#: src/main.c:659
+msgid ""
+"FFTW wisdom not found. This is normal if you are running gMFSK for the first "
+"time."
+msgstr ""
+"FFTW não encontrado. Isto é normal se está a começar o gMFSK pela primeira "
+"vez "
+
+#: src/main.c:678
+msgid "gMFSK -- testmode (both)"
+msgstr "gMFSK -- modo de teste (ambos)"
+
+#: src/main.c:682
+msgid "gMFSK -- testmode (rx)"
+msgstr "gMFSK -- modo de teste (rx)"
+
+#: src/main.c:686
+msgid "gMFSK -- testmode (tx)"
+msgstr "gMFSK -- modo de teste (rx)"
+
+#: src/main.c:688
+#, c-format
+msgid "Invalid testmode '%s'\n"
+msgstr "Inválido modo de teste '%s'\n"
+
+#: src/miniscope.c:176 src/miniscope.c:188 src/miniscope.c:200
+#: src/waterfall.c:343 src/waterfall.c:354 src/waterfall.c:365
+#: src/waterfall.c:376 src/waterfall.c:387
+#, c-format
+msgid "unable to allocate color: ( %d %d %d )"
+msgstr "incapaz de atribuir cor: ( %d %d %d )"
+
+#: src/miniscope.c:434
+#, c-format
+msgid "miniscope: invalid mode %d\n"
+msgstr "miniscope: modo inválido %d\n"
+
+#: src/picture.c:173
+#, c-format
+msgid "Error saving picture: %s: %s"
+msgstr "Erro a guardar imagem: %s: %s"
+
+#: src/picture.c:255
+#, c-format
+msgid "picture write: x >= width (%d >= %d)"
+msgstr "imagem escrita: x >=largura (%d >= %d)"
+
+#: src/picture.c:261
+#, c-format
+msgid "picture write: y >= height (%d >= %d)"
+msgstr "imagem escrita: y >=altura (%d >= %d)"
+
+#: src/picture.c:309
+msgid "Select Picture to Transmit"
+msgstr "Seleccione imagem para transmitir"
+
+#: src/picture.c:338
+#, c-format
+msgid "send_picture: %s"
+msgstr "send_picture: %s"
+
+#: src/picture.c:348
+msgid "send_picture: pixbuf conversion failed!"
+msgstr "send_picture: conversão do pixbuf falhada!"
+
+#: src/picture.c:355
+msgid "send_picture: couldn't load picture icon!"
+msgstr "send_picture: não posso carregar o icon da imagem!"
+
+#: src/ptt.c:162
+#, c-format
+msgid "Device '%s' is neither a parallel nor a serial port"
+msgstr "Dispositivo '%s' não é uma porta série ou paralela"
+
+#: src/ptt.c:164
+#, c-format
+msgid "Device '%s' is not a serial port"
+msgstr "Dispositivo '%s' não é uma porta série"
+
+#: src/qsodata.c:76
+#, c-format
+msgid "log message too long, entry dropped: %s\n"
+msgstr "mensagem de registo muito grande, entrada alterada: %s\n"
+
+#: src/snd.c:144
+msgid "opensnd: device not set"
+msgstr "opensnd: dispositivo não configurado"
+
+#: src/snd.c:168
+#, c-format
+msgid "opensnd: open: %s: %m"
+msgstr "opensnd: aberto: %s: %m"
+
+#: src/snd.c:174
+#, c-format
+msgid "opensnd: ioctl: SNDCTL_DSP_NONBLOCK: %m"
+msgstr "opensnd: ioctl: DNSCTL_DSP_NONBLOCK: %m"
+
+#: src/snd.c:194
+#, c-format
+msgid "opensnd: ioctl: SNDCTL_DSP_SETFMT: %m"
+msgstr "opensnd: ioctl: SNDCTL_DSP_SETFMT: %m"
+
+#: src/snd.c:198
+msgid "opensnd: Requested sample format not supported"
+msgstr "opensnd: requisitado formato nÃ£o suportado"
+
+#: src/snd.c:214
+#, c-format
+msgid "opensnd: ioctl: SNDCTL_DSP_STEREO: %m"
+msgstr "opensnd: ioctl: SNDCTL_DSP_STEREO: %m"
+
+#: src/snd.c:218
+#, c-format
+msgid "opensnd: Cannot set %s audio"
+msgstr "opensnd: Não posso configurar o audio %s"
+
+#: src/snd.c:229
+#, c-format
+msgid "opensnd: ioctl: SNDCTL_DSP_SPEED: %m"
+msgstr "opensnd: ioctl: SNDCTL_DSP_SPEED: %m"
+
+#: src/snd.c:233
+#, c-format
+msgid "Sampling rate is %u, requested %u\n"
+msgstr "Velocidade é %u, procurada %u\n"
+
+#: src/snd.c:261
+#, c-format
+msgid "opensnd: ioctl: SNDCTL_DSP_SETFRAGMENT: %m"
+msgstr "opensnd: ioctl: SNDCTL_DSP_SETFRAGMENT: %m"
+
+#: src/snd.c:349
+#, c-format
+msgid "sound_open_for_write: src_new failed: %s"
+msgstr "sound_open_for_write: falhada src_new: %s"
+
+#: src/snd.c:418
+#, c-format
+msgid "sound_open_for_read: src_new failed: %s"
+msgstr "sound_open_for_read: falhada src_new: %s"
+
+#: src/snd.c:461
+#, c-format
+msgid "sound_close: ioctl: SNDCTL_DSP_SYNC: %m"
+msgstr "sound_close: ioctl: SNDCTL_DSP_SYNC: %m"
+
+#: src/snd.c:489
+msgid "sound_write: fd < 0"
+msgstr "sound_write: fd < 0"
+
+#: src/snd.c:503
+#, c-format
+msgid "sound_write: src_process: %s"
+msgstr "sound_write: src_process: %s"
+
+#: src/snd.c:522
+#, c-format
+msgid "write_samples: count <= 0 (%d)"
+msgstr "write_samples: count <= 0 (%d)"
+
+#: src/snd.c:527
+#, c-format
+msgid "write_samples: count > SND_BUF_LEN (%d)"
+msgstr "write_samples: count > SND_BUF_LEN (%d)"
+
+#: src/snd.c:558
+#, c-format
+msgid "write_samples: write: %m"
+msgstr "write_samples: escreve: %m"
+
+#: src/snd.c:590
+msgid "sound_read: fd < 0"
+msgstr "sound_read: fd < 0"
+
+#: src/snd.c:611
+#, c-format
+msgid "sound_read: src_process: %s"
+msgstr "sound_read: src_process: %s"
+
+#: src/snd.c:630
+#, c-format
+msgid "read_samples: count <= 0 (%d)"
+msgstr "read_samples: count <= 0 (%d)"
+
+#: src/snd.c:635
+#, c-format
+msgid "read_samples: count > SND_BUF_LEN (%d)"
+msgstr "read_samples: count > SND_BUF_LEN (%d)"
+
+#: src/snd.c:683
+#, c-format
+msgid "sound_read: read: %m"
+msgstr "sound_read: ler: %m"
+
+#: src/support.c:60 src/support.c:85
+#, c-format
+msgid "Couldn't find pixmap file: %s"
+msgstr "Não posso encontrar ficheiro pixmap: %s"
+
+#: src/trx.c:108
+#, c-format
+msgid "sound_open_for_read: %s"
+msgstr "sound_open_for_read: %s"
+
+#: src/trx.c:129
+#, c-format
+msgid "%s"
+msgstr "%s"
+
+#: src/trx.c:146
+#, c-format
+msgid "sound_open_for_write: %s"
+msgstr "sound_open_for_write: %s"
+
+#: src/trx.c:316
+msgid "Modem initialization failed!"
+msgstr "Inicialização do modem falhada!"
+
+#: src/trx.c:326
+#, c-format
+msgid "pthread_create: %m"
+msgstr "pthread_create: %m"
+
+#: src/trx.c:847
+#, c-format
+msgid "trx_get_tx_char: conversion failed: %s"
+msgstr "trx_get_tx_char: conversão falhada: %s"
+
+#: src/waterfall.c:1060
+#, c-format
+msgid "Unknown waterfall mode: %d\n"
+msgstr "Desconhecido modo de catarata: %d\n"
+
+#: src/waterfall.c:1226
+#, c-format
+msgid "Invalid window function: %d\n"
+msgstr "Inválida função de janela: %d\n"
+
+#: src/waterfall.c:1395
+#, c-format
+msgid "Unsupported magnification: %d\n"
+msgstr "Magnificação não suportada: %d\n"
+
+#~ msgid "New entry"
+#~ msgstr "Entrada nova"
+
+#~ msgid "Log entry"
+#~ msgstr "Entrada no registo"
+
+#~ msgid "PSK63"
+#~ msgstr "PSK63"

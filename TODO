@@ -1,0 +1,58 @@
+Features that might one day be implemented in gMFSK. Actually this
+is only for me to remember my own ideas and ideas suggested by
+other people. Some of these will probably never fly... But if you
+see something that you would _really_ like to see in gMFSK, email
+me and I may bump that idea up the list. These are not in any
+particular order however.
+
+ - International character set support. (Hellschreiber already has this.)
+
+ - A "log to file" for Feldhell. Perhaps save the bottom most papertape
+   as a png every time it is filled (scrolled upwards).
+
+ - "Start QSO" button. This would reset the start time of the QSO to
+   current time.
+
+ - Query remote log for name/qth/etc data from a possible earlier QSO
+   with this callsign. Needs Xlog support.
+
+ - NET or Lock TX checkbutton.
+
+ - Color waterfall.
+
+ - Adjustable (mode specific?) AFC capture/scan speed.
+
+ - Callcheck, ie. scan received text for callsigns and grab the
+   callsign to QSO data.
+
+ - A completely separate modem engine or a TNC emulation mode.
+
+ - AutoCQ
+
+ - Resync button for MT63. (Hitting the Abort button is equivalent!!!)
+
+ - simultaneous decoding of multiple signals.
+
+ - replay received audio when clicking on a new signal.
+
+ - Amtor/pactor (receive only?)
+
+ - IMD display for PSK31
+
+ - FMHELL
+
+ - Video-ID mode
+
+ - Configurable waterfall font (fix drawing first)
+
+ - REV doesn't on MT63 and OLIVIA, needs to be fixed.
+
+ - Cwdaemon support
+
+ - Support for inputting tx-data from a UDP socket
+
+ - CAT command macros (for changing frequency, mode, etc.)
+
+ - Support for scripts that are automatically run when gMFSK starts/stops,
+   TX/RX is switched or mode is changed. (Could be used to set/save
+   mixer levels, control special hardware for eg. PTT etc...)
