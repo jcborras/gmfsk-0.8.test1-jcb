@@ -976,7 +976,7 @@ create_appwindow (void)
   gtk_box_pack_start (GTK_BOX (hbox16), freqlabel, FALSE, FALSE, 4);
   gtk_label_set_justify (GTK_LABEL (freqlabel), GTK_JUSTIFY_CENTER);
 
-  freqspinbutton_adj = gtk_adjustment_new (1001, 0, 4000, 1, 10, 10);
+  freqspinbutton_adj = gtk_adjustment_new (1001, 0, 4000, 1, 10, 0);
   freqspinbutton = gtk_spin_button_new (GTK_ADJUSTMENT (freqspinbutton_adj), 1, 1);
   gtk_widget_show (freqspinbutton);
   gtk_box_pack_start (GTK_BOX (hbox16), freqspinbutton, TRUE, TRUE, 2);
@@ -2602,7 +2602,7 @@ create_confdialog (void)
   gtk_widget_show (table12);
   gtk_box_pack_start (GTK_BOX (vbox12), table12, FALSE, TRUE, 0);
 
-  txoffsetspinbutton_adj = gtk_adjustment_new (0, -1000, 1000, 1, 10, 10);
+  txoffsetspinbutton_adj = gtk_adjustment_new (0, -1000, 1000, 1, 10, 0);
   txoffsetspinbutton = gtk_spin_button_new (GTK_ADJUSTMENT (txoffsetspinbutton_adj), 1, 1);
   gtk_widget_show (txoffsetspinbutton);
   gtk_table_attach (GTK_TABLE (table12), txoffsetspinbutton, 1, 2, 0, 1,
@@ -2766,14 +2766,14 @@ create_confdialog (void)
   gtk_label_set_justify (GTK_LABEL (label257), GTK_JUSTIFY_CENTER);
   gtk_misc_set_alignment (GTK_MISC (label257), 0, 0.5);
 
-  oliviasmargspinbutton_adj = gtk_adjustment_new (8, 2, 128, 1, 10, 10);
+  oliviasmargspinbutton_adj = gtk_adjustment_new (8, 2, 128, 1, 10, 0);
   oliviasmargspinbutton = gtk_spin_button_new (GTK_ADJUSTMENT (oliviasmargspinbutton_adj), 1, 0);
   gtk_widget_show (oliviasmargspinbutton);
   gtk_table_attach (GTK_TABLE (table24), oliviasmargspinbutton, 1, 2, 2, 3,
                     (GtkAttachOptions) (GTK_EXPAND | GTK_FILL),
                     (GtkAttachOptions) (0), 2, 2);
 
-  oliviasintegspinbutton_adj = gtk_adjustment_new (4, 2, 128, 1, 10, 10);
+  oliviasintegspinbutton_adj = gtk_adjustment_new (4, 2, 128, 1, 10, 0);
   oliviasintegspinbutton = gtk_spin_button_new (GTK_ADJUSTMENT (oliviasintegspinbutton_adj), 1, 0);
   gtk_widget_show (oliviasintegspinbutton);
   gtk_table_attach (GTK_TABLE (table24), oliviasintegspinbutton, 1, 2, 3, 4,
@@ -3593,7 +3593,7 @@ create_confdialog (void)
   gtk_label_set_justify (GTK_LABEL (label244), GTK_JUSTIFY_CENTER);
   gtk_misc_set_alignment (GTK_MISC (label244), 0, 0.5);
 
-  ratespinbutton_adj = gtk_adjustment_new (8000, 667, 96000, 1, 10, 10);
+  ratespinbutton_adj = gtk_adjustment_new (8000, 667, 96000, 1, 10, 0);
   ratespinbutton = gtk_spin_button_new (GTK_ADJUSTMENT (ratespinbutton_adj), 1, 0);
   gtk_widget_show (ratespinbutton);
   gtk_table_attach (GTK_TABLE (table23), ratespinbutton, 1, 2, 1, 2,
@@ -3603,7 +3603,7 @@ create_confdialog (void)
   gtk_spin_button_set_update_policy (GTK_SPIN_BUTTON (ratespinbutton), GTK_UPDATE_IF_VALID);
   gtk_spin_button_set_wrap (GTK_SPIN_BUTTON (ratespinbutton), TRUE);
 
-  txppmspinbutton_adj = gtk_adjustment_new (0, -1000000, 1000000, 1, 10, 10);
+  txppmspinbutton_adj = gtk_adjustment_new (0, -1000000, 1000000, 1, 10, 0);
   txppmspinbutton = gtk_spin_button_new (GTK_ADJUSTMENT (txppmspinbutton_adj), 1, 0);
   gtk_widget_show (txppmspinbutton);
   gtk_table_attach (GTK_TABLE (table23), txppmspinbutton, 1, 2, 2, 3,
@@ -3613,7 +3613,7 @@ create_confdialog (void)
   gtk_spin_button_set_update_policy (GTK_SPIN_BUTTON (txppmspinbutton), GTK_UPDATE_IF_VALID);
   gtk_spin_button_set_wrap (GTK_SPIN_BUTTON (txppmspinbutton), TRUE);
 
-  rxppmspinbutton_adj = gtk_adjustment_new (0, -1000000, 1000000, 1, 10, 10);
+  rxppmspinbutton_adj = gtk_adjustment_new (0, -1000000, 1000000, 1, 10, 0);
   rxppmspinbutton = gtk_spin_button_new (GTK_ADJUSTMENT (rxppmspinbutton_adj), 1, 0);
   gtk_widget_show (rxppmspinbutton);
   gtk_table_attach (GTK_TABLE (table23), rxppmspinbutton, 1, 2, 3, 4,
@@ -3965,7 +3965,7 @@ create_confdialog (void)
 
   gtk_option_menu_set_menu (GTK_OPTION_MENU (hlresoptionmenu), menu10);
 
-  qsyspinbutton_adj = gtk_adjustment_new (1000, 0, 4000, 1, 10, 10);
+  qsyspinbutton_adj = gtk_adjustment_new (1000, 0, 4000, 1, 10, 0);
   qsyspinbutton = gtk_spin_button_new (GTK_ADJUSTMENT (qsyspinbutton_adj), 1, 0);
   gtk_widget_show (qsyspinbutton);
   gtk_table_attach (GTK_TABLE (table19), qsyspinbutton, 2, 3, 3, 4,
